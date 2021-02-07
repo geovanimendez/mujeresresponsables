@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+
+
+*{
+    padding: 0;
+    margin: 0; 
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: borderbox;
+}
+
+.menutop{
+    width: 90%;
+    height: 50px;
+    background: #72085b;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.item{
+    background: #72085b;
+    width: 90%;
+    height: 25px;
+    color: white;
+    margin: 30px;
+    padding: 20px;
+    font-size: 15px;
+    text-align:top center;
+}
+.otro{
+    background: #72085b;
+    width: 5000px;
+    height: 25px;
+    color: white;
+    margin: 60px;
+    padding: 20px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.menubuttom{
+    width: 90%;
+    height: 50px;
+    background: #72085b;
+    margin: 25px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie{
+    background: #72085b;
+    width: 5000px;
+    height: 25px;
+    color: white;
+    margin: 60px;
+    padding: 20px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.mizq{
+    width: 700px;
+    height: 500px;
+    float: left;
+    background: white;
+    margin-top: 10px;
+    margin-right: 50px;
+    margin-left: 80px;
+    overflow: hidden;
+}
+
+.mizq h2{
+    width: 70px;
+    height: 40px; 
+    text-align: left;
+}
+
+.mizq h3{
+    width: 700px;
+    height: 40px; 
+    text-align: right;
+}
+
+.derechos{
+    width: 650px;
+    height: 25px;
+    text-align: center;
+    font-family: 'Inconsolata', monospace;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.intro{
+    width: 685px;
+    height: 120px;
+    align-self: center;
+    margin: 10px;
+    text-align: justify;
+    padding: 3px 10px;
+    border:gray 1px solid;
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+
+img{
+    margin: 20px;
+    padding: 5px;
+    width: 200px;
+    height: 150px;
+    float: left;
+}
+
+
+div{
+    width: 800px;
+}
+
+.botones{
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+}
+
+
+#b1{
+    margin: 0px;
+    padding: 0;
+    border:cornflowerblue 1px solid;
+    border-radius: 5px;
+    color: cornflowerblue;
+    height: 25px;
+    width: 100px;
+    float: left;
+    text-align: center;
+}
+
+#b2{
+    margin: px;
+    padding: 0;
+    border:cornflowerblue 1px solid;
+    border-radius: 5px;
+    color: cornflowerblue;
+    height: 25px;
+    width: 100px;
+    float: left;
+    text-align: center;
+}
+
+#b3{
+    margin: 0px;
+    padding: 0;
+    border:cornflowerblue 1px solid;
+    border-radius: 5px;
+    color: cornflowerblue;
+    height: 25px;
+    width: 100px;
+    float: left;
+    text-align: center;
+}
+
+aside{
+    width: 450px;
+    height: 500px;
+    margin-top: 10px;
+    margin-right: 65px;
+    margin-bottom: 10px;
+    float: right;
+}
+
+aside hr{
+    width: 430px;
+    margin-top: 80px;
+}
+
+#item4{
+    margin: 0px;
+    margin-left: 107px;
+    padding: 5px;
+    width: 200px;
+    height: 150px;
+    float: center; 
+}
+
+aside div p1{
+    margin-top: 20px;
+    font-size: 18px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+aside div p2{
+    margin-top: 20px;
+    width: 425px;
+    float: left;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+
+.btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: flex-end;
+    }
+    
+    
+    #b4{
+        margin: 0px;
+        padding: 5px;
+        border:#72085b 1px solid;
+        border-radius: 5px;
+        color: #72085b;
+        height: 25px;
+        width: 300px;
+        float: left;
+        margin-top: 20px;
+        margin-right: 325px;
+        text-align: center;
+    }
